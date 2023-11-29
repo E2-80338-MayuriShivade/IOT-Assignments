@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperatures</title>
+</head>
+<body>
+    <form action="{{url_for("add_temperature")}}" method = "post">
+     <label style="font-size: 22px;">Temperature:</label>
+         <input type="text" id="temperature" name="temp" style="font-size: 22px;">
+     <label style="font-size: 22px;">Location:</label>
+         <input type="text" id="location" name="loc" style="font-size: 22px;">
+         <input type="submit" value="Submit" style="font-size: 22px;">
+    </form>
+</body>
+</html>
